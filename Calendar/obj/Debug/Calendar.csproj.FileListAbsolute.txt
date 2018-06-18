@@ -1,0 +1,81 @@
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\bin\Debug\Calendar.exe.config
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\bin\Debug\Calendar.exe
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\bin\Debug\Calendar.pdb
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\MainWindow.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\App.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\Calendar_MarkupCompile.cache
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\Calendar_MarkupCompile.lref
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\MainWindow.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\Calendar.g.resources
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\Calendar.Properties.Resources.resources
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\Calendar.csproj.GenerateResource.cache
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\Calendar.csproj.CoreCompileInputs.cache
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\Calendar.exe
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\Calendar.pdb
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\App.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\CalendarTable.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\CalendarTable.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\ChangeTimeWindow.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\ChangeTimeWindow.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\AddEvent.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\AddEvent.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\ShowEventDetail.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\ShowEventDetail.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\bin\Debug\Hardcodet.Wpf.TaskbarNotification.xml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\MyBalloonTip.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\MyBalloonTip.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\Calendar.csproj.CopyComplete
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\Calendar.csprojAssemblyReference.cache
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\TrayPopup.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\TrayPopup.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\EditEvent.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\EditEvent.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\SetReminder.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Debug\SetReminder.g.cs
+D:\WPF\Project\Calendar\Calendar\bin\Debug\Calendar.exe.config
+D:\WPF\Project\Calendar\Calendar\bin\Debug\Calendar.exe
+D:\WPF\Project\Calendar\Calendar\bin\Debug\Calendar.pdb
+D:\WPF\Project\Calendar\Calendar\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+D:\WPF\Project\Calendar\Calendar\bin\Debug\MaterialDesignColors.dll
+D:\WPF\Project\Calendar\Calendar\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\WPF\Project\Calendar\Calendar\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+D:\WPF\Project\Calendar\Calendar\bin\Debug\Hardcodet.Wpf.TaskbarNotification.xml
+D:\WPF\Project\Calendar\Calendar\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\WPF\Project\Calendar\Calendar\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Calendar.csprojAssemblyReference.cache
+D:\WPF\Project\Calendar\Calendar\obj\Debug\AddEvent.baml
+D:\WPF\Project\Calendar\Calendar\obj\Debug\CalendarTable.baml
+D:\WPF\Project\Calendar\Calendar\obj\Debug\ChangeTimeWindow.baml
+D:\WPF\Project\Calendar\Calendar\obj\Debug\EditEvent.baml
+D:\WPF\Project\Calendar\Calendar\obj\Debug\SetReminder.baml
+D:\WPF\Project\Calendar\Calendar\obj\Debug\ShowEventDetail.baml
+D:\WPF\Project\Calendar\Calendar\obj\Debug\TrayPopup.baml
+D:\WPF\Project\Calendar\Calendar\obj\Debug\AddEvent.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Debug\CalendarTable.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Debug\ChangeTimeWindow.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Debug\EditEvent.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Debug\MainWindow.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Debug\MyBalloonTip.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Debug\SetReminder.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Debug\ShowEventDetail.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Debug\TrayPopup.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Debug\App.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Calendar_MarkupCompile.cache
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Calendar_MarkupCompile.lref
+D:\WPF\Project\Calendar\Calendar\obj\Debug\App.baml
+D:\WPF\Project\Calendar\Calendar\obj\Debug\MainWindow.baml
+D:\WPF\Project\Calendar\Calendar\obj\Debug\MyBalloonTip.baml
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Resources\MainResources.baml
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Calendar.g.resources
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Calendar.Properties.Resources.resources
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Calendar.csproj.GenerateResource.cache
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Calendar.csproj.CoreCompileInputs.cache
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Calendar.csproj.CopyComplete
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Calendar.exe
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Calendar.pdb
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Event.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Debug\Event.baml

@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="Calendar.TrayPopup"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="100">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="CalendarButton" 
+                
+                Content="Calendar"
+                Grid.Row="0"
+                Click="CalendarButton_OnClick" Height="Auto"
+                MouseEnter="Button_OnMouseEnter"
+                MouseLeave="Button_OnMouseLeave"/>
+
+        <Button x:Name="QuitButton" 
+                Grid.Row="1"
+                Content="Quit"
+                Click="QuitButton_OnClick" Height="Auto"
+                MouseEnter="Button_OnMouseEnter"
+                MouseLeave="Button_OnMouseLeave">
+        </Button>
+    </Grid>
+</UserControl>

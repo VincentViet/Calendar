@@ -1,0 +1,80 @@
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\bin\Release\Calendar.exe.config
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\bin\Release\Calendar.exe
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\bin\Release\Calendar.pdb
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\AddEvent.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\CalendarTable.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\ChangeTimeWindow.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\EditEvent.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\SetReminder.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\ShowEventDetail.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\TrayPopup.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\AddEvent.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\CalendarTable.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\ChangeTimeWindow.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\EditEvent.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\MainWindow.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\MyBalloonTip.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\SetReminder.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\ShowEventDetail.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\TrayPopup.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\App.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\Calendar_MarkupCompile.cache
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\Calendar_MarkupCompile.lref
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\App.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\MainWindow.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\MyBalloonTip.baml
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\Calendar.g.resources
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\Calendar.Properties.Resources.resources
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\Calendar.csproj.GenerateResource.cache
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\Calendar.csproj.CoreCompileInputs.cache
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\Calendar.csproj.CopyComplete
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\Calendar.exe
+D:\dotNet Framework\C Sharp\project\Calendar\Calendar\obj\Release\Calendar.pdb
+D:\WPF\Project\Calendar\Calendar\bin\Release\Calendar.exe.config
+D:\WPF\Project\Calendar\Calendar\bin\Release\Calendar.exe
+D:\WPF\Project\Calendar\Calendar\bin\Release\Calendar.pdb
+D:\WPF\Project\Calendar\Calendar\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+D:\WPF\Project\Calendar\Calendar\bin\Release\MaterialDesignColors.dll
+D:\WPF\Project\Calendar\Calendar\bin\Release\MaterialDesignThemes.Wpf.dll
+D:\WPF\Project\Calendar\Calendar\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+D:\WPF\Project\Calendar\Calendar\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+D:\WPF\Project\Calendar\Calendar\bin\Release\MaterialDesignThemes.Wpf.pdb
+D:\WPF\Project\Calendar\Calendar\bin\Release\MaterialDesignThemes.Wpf.xml
+D:\WPF\Project\Calendar\Calendar\obj\Release\Calendar.csprojAssemblyReference.cache
+D:\WPF\Project\Calendar\Calendar\obj\Release\AddEvent.baml
+D:\WPF\Project\Calendar\Calendar\obj\Release\CalendarTable.baml
+D:\WPF\Project\Calendar\Calendar\obj\Release\ChangeTimeWindow.baml
+D:\WPF\Project\Calendar\Calendar\obj\Release\EditEvent.baml
+D:\WPF\Project\Calendar\Calendar\obj\Release\SetReminder.baml
+D:\WPF\Project\Calendar\Calendar\obj\Release\ShowEventDetail.baml
+D:\WPF\Project\Calendar\Calendar\obj\Release\TrayPopup.baml
+D:\WPF\Project\Calendar\Calendar\obj\Release\AddEvent.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Release\CalendarTable.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Release\ChangeTimeWindow.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Release\EditEvent.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Release\Event.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Release\MainWindow.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Release\MyBalloonTip.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Release\SetReminder.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Release\ShowEventDetail.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Release\TrayPopup.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Release\App.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\WPF\Project\Calendar\Calendar\obj\Release\Calendar_MarkupCompile.cache
+D:\WPF\Project\Calendar\Calendar\obj\Release\Calendar_MarkupCompile.lref
+D:\WPF\Project\Calendar\Calendar\obj\Release\App.baml
+D:\WPF\Project\Calendar\Calendar\obj\Release\Event.baml
+D:\WPF\Project\Calendar\Calendar\obj\Release\MainWindow.baml
+D:\WPF\Project\Calendar\Calendar\obj\Release\MyBalloonTip.baml
+D:\WPF\Project\Calendar\Calendar\obj\Release\Resources\MainResources.baml
+D:\WPF\Project\Calendar\Calendar\obj\Release\Calendar.g.resources
+D:\WPF\Project\Calendar\Calendar\obj\Release\Calendar.Properties.Resources.resources
+D:\WPF\Project\Calendar\Calendar\obj\Release\Calendar.csproj.GenerateResource.cache
+D:\WPF\Project\Calendar\Calendar\obj\Release\Calendar.csproj.CoreCompileInputs.cache
+D:\WPF\Project\Calendar\Calendar\obj\Release\Calendar.csproj.CopyComplete
+D:\WPF\Project\Calendar\Calendar\obj\Release\Calendar.exe
+D:\WPF\Project\Calendar\Calendar\obj\Release\Calendar.pdb

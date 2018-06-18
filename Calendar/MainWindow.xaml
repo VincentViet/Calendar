@@ -1,0 +1,274 @@
+﻿<Window x:Class="Calendar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calendar"
+        mc:Ignorable="d"
+        Title="Calendar" Width="1280" Height="800"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Activated="MainWindow_OnActivated"
+        
+        
+        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.08*"></RowDefinition>
+            <RowDefinition Height="0.92*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+
+            <materialDesign:ColorZone
+                Name="ControlBar"
+                MouseLeftButtonDown="ControlBar_OnMouseLeftButtonDown"
+                Mode="Light"
+                Padding="16">
+                <DockPanel>
+                    <StackPanel 
+                        DockPanel.Dock="Right"
+                        Orientation="Horizontal">
+                        <Button 
+                            Margin="0,0,10,0"
+                            Name="MinimizeButton"
+                            Click="MinimizeButton_OnClick">
+                            <materialDesign:PackIcon Kind="WindowMinimize"/>
+                        </Button>
+
+                        <Button 
+                            Name="CloseWindowButton"
+                            Click="CloseWindowButton_OnClick">
+                            <materialDesign:PackIcon Kind="WindowClose"/>
+                        </Button>
+                    </StackPanel>
+
+                    <StackPanel 
+                        DockPanel.Dock="Left"
+                        Orientation="Horizontal">
+                        <Button
+                            Click="ReturnToday"
+                            Name="HomeButton"
+                            Height="30"
+                            Width="30"
+                            Style="{StaticResource MaterialDesignFloatingActionDarkButton}"
+                            ToolTip="Return Today">
+                            <materialDesign:PackIcon
+                                Kind="HomeOutline"
+                                Height="24"
+                                Width="24" />
+                        </Button>
+
+                        <TextBlock
+                            VerticalAlignment="Center"
+                            Margin="16 0 0 0" Text="Azhor Calendar"
+                            FontWeight="Bold"/>
+                    </StackPanel>
+                </DockPanel>
+            </materialDesign:ColorZone>
+
+        </Grid>
+
+        <Grid Grid.Row="1" 
+              Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.7*"/>
+                <ColumnDefinition Width="0.3*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <Grid Grid.Column="0"
+              Background="{StaticResource MyWhite}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.15*"/>
+                        <RowDefinition Height="0.2*"/>
+                        <RowDefinition Height="0.5*"/>
+                        <RowDefinition Height="0.15*"/>
+                    </Grid.RowDefinitions>
+
+
+                    <Button x:Name="Clock" 
+                                Style="{StaticResource NavigateButton}"
+                                Grid.Row="0"
+                                Background="{StaticResource MyWhite}"
+                                Foreground="{StaticResource MyGrey}"
+                                FontSize="50"
+                        ToolTip="Click here to reset clock after you change you system clock" 
+                        Click="Clock_Click"/>
+
+                    <Button x:Name="CurrYearButton"
+                                Grid.Row="1"
+                                   Content=""
+                                   Style="{StaticResource NavigateButton}"
+                                   FontSize="40"
+                                   Foreground="{StaticResource MyGrey}"
+
+                                Background="{StaticResource MyWhite}"
+                               Click="CurrYear_Click"/>
+
+
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.1*"/>
+                            <ColumnDefinition Width="0.8*"/>
+                            <ColumnDefinition Width="0.1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0">
+                            <!-- <Button x:Name="PrevButton" -->
+                            <!--     Style="{StaticResource NavigateButton}" -->
+                            <!--     Content="{StaticResource LeftArrow}" -->
+                            <!--     Click="PrevButton_Click" -->
+                            <!--     Background="{StaticResource MyWhite}" -->
+                            <!--     BorderThickness="0"/> -->
+
+                            <Button 
+                                x:Name="PrevButton"
+                                Height="auto"
+                                Click="PrevButton_Click"
+                                ToolTip="Prev-month">
+                                <materialDesign:PackIcon
+                                    Height="50"
+                                    Width="50"
+                                    Kind="ArrowLeftBoldCircle"/>
+                            </Button>
+                        </Grid>
+
+                        <local:CalendarTable x:Name="CalendarTable"
+                                         Grid.Column="1"
+                                         SelectedDateChange="CalendarTable_OnSelectedDateChange"/>
+
+                        <Grid Grid.Column="2">
+                            <!-- <Button x:Name="NextButton"  -->
+                            <!--     Style="{StaticResource NavigateButton}" -->
+                            <!--     Content="{StaticResource RightArrow}" -->
+                            <!--     Background="{StaticResource MyWhite}" -->
+                            <!--     Click="NextButton_Click" -->
+                            <!--     BorderThickness="0"/> -->
+                            <Button 
+                                x:Name="NextButton"
+                                Height="auto"
+                                Click="NextButton_Click"
+                                ToolTip="Next Month">
+                                <materialDesign:PackIcon
+                                    Height="50"
+                                    Width="50"
+                                    Kind="ArrowRightBoldCircle"/>
+                            </Button>
+                        </Grid>
+
+                    </Grid>
+
+                    <Grid  Grid.Row="3">
+                        <!-- <Button x:Name="SetReminderButton" -->
+                        <!--     Style="{StaticResource FooterButton}" -->
+                        <!--     Content="Set Remider"  -->
+                        <!--     Margin="10,49,746,10" -->
+                        <!--     Click="SetReminderButton_OnClick"/> -->
+                        <Button
+                            Click="SetReminderButton_OnClick"
+                            Style="{StaticResource MaterialDesignFloatingActionAccentButton}"
+                            ToolTip="Set Reminder">
+                            <materialDesign:PackIcon
+                                Kind="Alarm"
+                                Height="24"
+                                Width="24" />
+                        </Button>
+
+                        <!-- <Button x:Name="HideButton" -->
+                        <!--     Style="{StaticResource FooterButton}" -->
+                        <!--     Content="Hide" -->
+                        <!--     Margin="816,49,10,10" -->
+                        <!--     Click="HideButton_OnClick"/> -->
+                            
+                    </Grid>
+
+                </Grid>
+
+            </Grid>
+
+            <Grid Grid.Column="1"
+              Background="{StaticResource MyBlack}">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.15*"/>
+                    <RowDefinition Height="0.75*"/>
+                    <RowDefinition Height="0.1*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.8*"/>
+                        <ColumnDefinition Width="0.2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Style="{StaticResource MyLabelStyle}"
+                           Background="{StaticResource MyBlack}"
+                           Content="Events"
+                           Foreground="{StaticResource MyOrange}"
+                           FontSize="70"></Label>
+
+                    <ToggleButton
+                        Name="NotifyToggleButton"
+                        Grid.Column="1"
+                        Style="{StaticResource MaterialDesignSwitchAccentToggleButton}"
+                        ToolTip="Turn on/off notify functionality"/>
+
+                </Grid>
+                
+                <StackPanel x:Name="EventGrid"
+                            Orientation="Vertical"
+                  Grid.Row="1">
+                </StackPanel>
+
+                <!-- <Button Style="{StaticResource AddEventButton}" -->
+                <!--     Grid.Row="2"  -->
+                <!--     Height="50" -->
+                <!--     Width="50" -->
+                <!--     HorizontalAlignment="Center"  -->
+                <!--     Click="AddEventButton_OnClick"> -->
+                <!-- </Button> -->
+
+                <Button
+                    Click="AddEventButton_OnClick"
+                    Grid.Row="2"
+                    Style="{StaticResource MaterialDesignFloatingActionAccentButton}"
+                    ToolTip="Add Event">
+                    <materialDesign:PackIcon
+                        Kind="Plus"
+                        Height="24"
+                        Width="24" />
+                </Button>
+
+            </Grid>
+        </Grid>
+    </Grid>
+    
+</Window>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

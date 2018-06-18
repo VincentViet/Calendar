@@ -1,0 +1,79 @@
+﻿<Window x:Class="Calendar.ChangeTimeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Width="464.545"
+        Height="240"
+        WindowStartupLocation="CenterOwner"
+        ShowInTaskbar="False"
+
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="0.2*"/>
+        </Grid.RowDefinitions>
+
+        <!--#region Modal header-->
+        <Label Grid.Row="0"
+               HorizontalContentAlignment="Left"
+               Style="{StaticResource MyLabelStyle}"
+               FontSize="25"
+               Content="Goto"/>
+
+        <!--#endregion -->
+
+        <!--#region Modal body-->
+        <ComboBox x:Name="MonthSelection" 
+                  Grid.Row="1"
+                  Height="40"
+                  Width="200"
+                  VerticalContentAlignment="Center"
+                  HorizontalContentAlignment="Center"
+                  FontFamily="Ubuntu"
+                  FontSize="20" Margin="10,50,255,54">
+            <ComboBoxItem Content="January"></ComboBoxItem>
+            <ComboBoxItem Content="February"></ComboBoxItem>
+            <ComboBoxItem Content="March"></ComboBoxItem>
+            <ComboBoxItem Content="April"></ComboBoxItem>
+            <ComboBoxItem Content="May"></ComboBoxItem>
+            <ComboBoxItem Content="June"></ComboBoxItem>
+            <ComboBoxItem Content="July"></ComboBoxItem>
+            <ComboBoxItem Content="August"></ComboBoxItem>
+            <ComboBoxItem Content="September"></ComboBoxItem>
+            <ComboBoxItem Content="October"></ComboBoxItem>
+            <ComboBoxItem Content="November"></ComboBoxItem>
+            <ComboBoxItem Content="December"></ComboBoxItem>
+        </ComboBox>
+
+        <ComboBox x:Name="YearSelection" 
+                  Grid.Row="1"
+                  Height="40"
+                  Width="200"
+                  VerticalContentAlignment="Center"
+                  HorizontalContentAlignment="Center"
+                  FontFamily="Ubuntu"
+                  FontSize="20" Margin="255,50,10,54"/>
+        <!--#endregion -->
+
+        <!--#region Modal footer -->
+        <Button x:Name="OkButton"
+                Content="OK"
+                FontFamily="Arial"
+                Grid.Row="2"
+                Click="OkButton_OnClick" Margin="0,10,0,0" Height="Auto"/>
+        <!--#endregion -->
+    </Grid>
+</Window>
